@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horcrux Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <div class="page-header container">
+        <h1 class="text-center">Horcrux Collector</h1>
+    </div>
+
+    <div class="container game">
+
+        <div class="row">
+
+            <div class="col-md-7 main-content">
+                <p>You will be given a random number at the start of the game</p>
+                <p>There are four Horcruxes below. By clicking on a Horcrux you will add a specific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to the random number, you Lose the game if your total score
+                    goes above the random number</p>
+                <p>The value of each Horcrux is hidden from you until you click on it.</p>
+                <p>Each time the game starts the value of each Horcrux will change.</p>
+            </div>
+            <div class="col-md-4 wins-con">
+
+                <div class="row">
+                    <h3 class="random-number">Target Number:
+                        <span class="target"></span>
+                    </h3>
+                    <hr>
+                </div>
+
+                <div class="row win-lose">
+                    <h4>Wins:
+                        <span class="wins"></span>
+                    </h4>
+                    <h4>Losses:
+                        <span class="losses"></span>
+                    </h4>
+                    <br>
+                    <h3 class="win-screen"></h3>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-xs-11 col-sm-4 col-md-3 total">
+                <h3>Your total score is:
+                    <span class="score"></span>
+                </h3>
+            </div>
+            <div>
+                <div class="row horcruxes">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

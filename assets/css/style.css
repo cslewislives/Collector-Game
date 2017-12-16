@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background: url("../images/forest.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Spectral SC", serif;
+}
+
+hr {
+    background: #f2a950;
+    margin: 20px 0;
+    padding: 1.5px;
+    border: none;
+}
+
+.page-header {
+    background: #0b1c26 !important;
+    color: #fff;
+    border-bottom: 2px solid #d97a43 !important;
+    margin: 0 0 40px 0 !important;
+    width: auto !important;
+}
+
+.page-header h1 {
+    font-size: 4em;
+}
+
+.main-content {
+    padding: 2em;
+    border: 2px solid #777;
+    margin: 0 30px 10px 0;
+    font-size: 1.25em;
+    background: rgba(7, 51, 89, 0.8) !important;
+}
+
+.wins-con {
+    border: 2px solid #777;
+    padding: 1.5em;
+    margin-right: 30px;
+    background: rgba(7, 51, 89, 0.8) !important;
+}
+
+.wins-con h3 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.wins-con h4 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.lose-screen {
+    font-weight: bold;
+    color: darkgreen;
+  }
+
+.win-screen {
+    font-weight: bold;
+    color: gold;
+  }
+  
+  .total {
+    padding: 1em;
+    text-align: center;
+    border: 2px solid #777;
+    margin: 2em 10px;
+    font-size: 1.25em;
+    background: rgba(7, 51, 89, 0.8) !important;
+}
+
+
+.horcrux-con {
+    overflow: hidden;
+}
+
+.horcrux-img {
+    width: 100%;
+}
+
+.img-wrapper{
+	width: 100%;
+	padding-bottom: 100%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.img-wrapper img{
+	position: absolute;
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+	min-height: 100%;
+}
+    .game {
+        margin-bottom: 50px;
+    }
